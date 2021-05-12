@@ -9,8 +9,9 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="reset.css" />
@@ -29,10 +30,12 @@
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google-Logo"
       />
-      <span class="material-icons"> search </span>
-      <form action="">
-        <input type="text" name="search" />
-      </form>
+      <div id="searchbox">
+        <span class="material-icons"> search </span>
+        <form action="">
+          <input type="text" name="search" />
+        </form>
+      </div>
       <div id="search-buttons">
         <button class="btn">Google Search</button>
         <button class="btn">I'm Feeling Lucky</button>
@@ -49,21 +52,19 @@
       </div>
     </main>
     <footer id="footer">
-      <div id="row-1">
-        <a href="#">India</a>
+      <div id="box-1">
+        <a class="foot-link" href="#">India</a>
       </div>
-      <div id="row-2">
-        <div id="col-1">
-          <a href="#">About</a>
-          <a href="#">Advertising</a>
-          <a href="#">Business</a>
-          <a href="#">How Search works</a>
-        </div>
-        <div id="col-2">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Settings</a>
-        </div>
+      <div id="box-2">
+        <a class="foot-link" href="#">About</a>
+        <a class="foot-link" href="#">Advertising</a>
+        <a class="foot-link" href="#">Business</a>
+        <a class="foot-link" href="#">How Search works</a>
+      </div>
+      <div id="box-3">
+        <a class="foot-link" href="#">Privacy</a>
+        <a class="foot-link" href="#">Terms</a>
+        <a class="foot-link" href="#">Settings</a>
       </div>
     </footer>
   </body>
